@@ -1,0 +1,22 @@
+﻿<Window x:Class="Crossword_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crossword_GUI"
+        mc:Ignorable="d"
+        Title="Crossword Maker" Height="550" Width="500">
+    <Grid>
+        <Label Content="Size of the crossword [Rows X Cols]: " HorizontalAlignment="Left" Height="30" Margin="30,30,0,0" VerticalAlignment="Top" Width="220"/>
+        <ComboBox x:Name="RowSelecor" HorizontalAlignment="Left" Margin="255,32.5,0,0" VerticalAlignment="Top" Width="80" Height="25"/>
+        <ComboBox x:Name="ColSelecor" HorizontalAlignment="Left" Margin="360,32.5,0,0" VerticalAlignment="Top" Width="80" Height="25"/>
+        <Button x:Name="CreateCrosswordBtn" Content="Create Crossword" Margin="30,75,290,434" Width="180" Height="25"/>
+        <Button x:Name="SaveCrosswordBtn" Content="Save Crossword" Margin="210,75,90,434" Width="180" Height="25"/>
+        <ComboBox x:Name="fileCoubter" HorizontalAlignment="Left" Margin="410,75,0,0" VerticalAlignment="Top" Width="80" Height="26"/>
+        <Grid x:Name="CrosswordField" Width="400" Height="400" Margin="50,110,50,10"/>
+
+
+
+
+    </Grid>
+</Window>
